@@ -1,3 +1,3 @@
-# Git and Github course
+# Travel landing Odigo
 
-Crash course for Git
+Neat page about travelling to Japan.
