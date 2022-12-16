@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1066,7 +1073,7 @@ img {
 .footer-menu-link {
     font-size: 16px;
     line-height: 24px;
-    color: white;
+    color: grey;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -1347,7 +1354,8 @@ img {
 
     .tour-pic-mob-first {
         grid-row: -1;
-        grid-row-start: -1;
+        -ms-grid-row: -1;
+            grid-row-start: -1;
     }
 
     .tours {
