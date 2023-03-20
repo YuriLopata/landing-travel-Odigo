@@ -1,17 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -131,20 +117,17 @@ html {
 }
 
 /**
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-
-a:focus {
-    outline: thin dotted;
-}
-
-/**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
 a:active,
 a:hover {
     outline: 0;
+}
+
+a:active,
+a:focus {
+    border: none;
 }
 
 /**
@@ -510,7 +493,6 @@ img {
     background-size: cover;
     padding-top: 263px;
     padding-bottom: 376px;
-    /* 223px? */
 }
 
 .intro-title {
