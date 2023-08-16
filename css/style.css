@@ -79,8 +79,8 @@ audio,
 canvas,
 video {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
+    display: inline;
+    zoom: 1;
     max-width: 100%;
 }
 
@@ -176,7 +176,7 @@ legend {
     border: 0; /* 1 */
     padding: 0;
     white-space: normal; /* 2 */
-    *margin-left: -7px; /* 3 */
+    margin-left: -7px; /* 3 */
 }
 
 /**
@@ -193,7 +193,6 @@ textarea {
     font-size: 100%; /* 1 */
     margin: 0; /* 2 */
     vertical-align: baseline; /* 3 */
-    *vertical-align: middle; /* 3 */
 }
 
 /**
@@ -233,7 +232,7 @@ html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
     cursor: pointer; /* 3 */
-    *overflow: visible;  /* 4 */
+    overflow: visible;  /* 4 */
 }
 
 /**
@@ -257,8 +256,8 @@ input[type="radio"] {
     -webkit-box-sizing: border-box;
             box-sizing: border-box; /* 1 */
     padding: 0; /* 2 */
-    *height: 13px; /* 3 */
-    *width: 13px; /* 3 */
+    height: 13px; /* 3 */
+    width: 13px; /* 3 */
 }
 
 /**
@@ -361,6 +360,8 @@ html {
 }
 
 body {
+    background: url(../img/intro-bg-min.jpg) no-repeat top;
+    background-size: contain;
     font-family: 'Lato';
     font-style: normal;
     font-size: 16px;
@@ -377,6 +378,7 @@ img {
 .wrapper {
     max-width: 1060px;
     margin: 0 auto;
+    margin-bottom: 153px;
     padding: 0 15px;
 }
 
@@ -393,6 +395,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    height: 107px;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -488,11 +491,7 @@ img {
 /* Intro styles start */
 
 .intro {
-    min-height: 100vh;
-    background: url(../img/intro-bg-min.jpg) no-repeat center;
-    background-size: cover;
     padding-top: 263px;
-    padding-bottom: 376px;
 }
 
 .intro-title {
@@ -604,12 +603,12 @@ img {
     font-weight: 500;
     font-size: 35px;
     line-height: 42px;
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
-    -webkit-transform: translateY(-100%);
+    left: 0; */
+    /* -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
-            transform: translateY(-100%);
+            transform: translateY(-100%); */
     background-color: white;
 }
 
@@ -1076,6 +1075,7 @@ img {
     .benefits {
         margin-bottom: 40px;
     }
+    
     .search-form-field {
         margin-bottom: 25px;
     }
